@@ -1,0 +1,31 @@
+.criteria {
+  display: flex;
+  align-items: center;
+}
+
+.criteria .tick {
+  margin-right: 5px;
+  display: none;
+}
+
+.criteria.valid .tick {
+  display: inline-block;
+  color: green;
+}
+
+.criteria.invalid .tick {
+  display: none;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
